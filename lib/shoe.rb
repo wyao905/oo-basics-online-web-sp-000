@@ -4,7 +4,10 @@ class Shoe
     @brand = brand
   end
   
-  attr_writer 
   attr_reader :brand
   attr_accessor :color, :size, :material, :condition
+  
+  def cobble
+    puts ""
+  end
 end
